@@ -4,10 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
-    "version": "./generate-version-information.sh",
+    "version": "generate-version-information.sh",
     "test": "npm run version && prettier --check . && eslint --ext .js,.jsx *.js src test && jest",
     "build": "npm run version && mkdir -p dist && webpack --config webpack.prod.js",
-    "start": "npm run version && mkdir -p dist && webpack-dev-server --open --config webpack.dev.js"
+    "start": "npm run version && webpack-dev-server --open --config webpack.dev.js"
   },
   "browserslist": [
     "defaults",
@@ -44,7 +44,7 @@
     "jest-cli": "^27.4.7",
     "lodash": "^4.17.21",
     "markdown-loader": "^6.0.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "postcss": "^8.4.14",
     "postcss-loader": "^4.3.0",
     "prettier": "2.1.2",
