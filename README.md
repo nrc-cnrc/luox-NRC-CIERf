@@ -1,16 +1,16 @@
-# luox
+# NRC CIE Colour Fidelity Index module for luox
 
-# CIE Colour Fidelity Index module for luox [luox-NRC-CIERf]
+**luox-NRC-CIERf** is a module to calculate parameters for light source colour appearance and colour rendering in the luox platform.
 
-**_luox_** is an open-source web platform for calculating quantities that describe light exposures. Quantities for the intensity of light exposure in terms of the international standard CIE S026:2018 were calculated in the original release. The luox-NRC-CIERf module, developed at the NRC in collaboration with the site’s original creator, adds indices related to light source colour appearance and colour rendering, principally those from publication CIE 224:2017 CIE 2017 Colour Fidelity Index for accurate scientific use. Users may also choose to view indices and colour vector graphics following the Illuminating Engineering Society TM-30-20 IES method for evaluating light source color rendition. This module also adds a ‘power mode’ permitting the user to submit any number of spectra simultaneously for calculation.
+**luox-NRC-CIERf** is a fork of the [luox](https://github.com/luox-app/luox/) project, which is an open-source web platform for calculating quantities that describe light exposures. Quantities for the intensity of light exposure in terms of the international standard CIE S026:2018 were calculated in the original release. The **luox-NRC-CIERf** module, developed at the NRC in collaboration with the site’s original creator, adds indices related to light source colour appearance and colour rendering, principally those from publication CIE 224:2017 CIE 2017 Colour Fidelity Index for accurate scientific use. Users may also choose to view indices and colour vector graphics following the Illuminating Engineering Society TM-30-20 IES method for evaluating light source color rendition. This module also adds a ‘power mode’ permitting the user to submit any number of spectra simultaneously for calculation.
 
 ## Team
 
-This module was developed by Dr. Somang Nam and Dr. Jennifer A. Veitch at the National Research Council of Canada –Construction Research Centre, in collaboration with Dr. Manuel Spitschan (Translational Sensory & Circadian Neuroscience, Max Planck Institute for Biological Cybernetics and Technical University of Munich, Germany).
+This module was developed by Dr. Somang Nam and Dr. Jennifer A. Veitch at the National Research Council of Canada (Construction Research Centre), in collaboration with Dr. Manuel Spitschan (Translational Sensory & Circadian Neuroscience, Max Planck Institute for Biological Cybernetics and Technical University of Munich, Germany).
 
 ## Citation
 
-Nam, S., Veitch, J. A., & Spitschan, M. (2022). CIE Colour Fidelity Index module for luox (luox-NRC-CIERf) [Source code]. National Research Council of Canada. https://github.com/nrc-cnrc.
+Nam, S., Veitch, J. A., & Spitschan, M. (2022). CIE Colour Fidelity Index module for luox (luox-NRC-CIERf) [Source code]. National Research Council of Canada. https://github.com/nrc-cnrc/luox-NRC-CIERf.
 
 ### Companion Paper
 
@@ -18,19 +18,11 @@ Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Herf, M.
 
 ## Licence
 
-luox-NRC-CIERf is distributed as free software under the terms of the GNU GPL-3.0 licence (https://www.gnu.org/licenses/gpl-3.0.en.html) Please review the LICENCE document for terms.
+**luox-NRC-CIERf** is distributed as free software under the terms of the GNU GPL-3.0 licence (https://www.gnu.org/licenses/gpl-3.0.en.html) Please review the LICENCE document for the licensing terms.
 
-### Copyright notice
+## Copyright
 
-**_luox-NRC-CIERf_** luox-NRC-CIERf is a module to calculate parameters for light source colour appearance and colour rendering in the luox platform.
-Copyright (C) 2022 Her Majesty the Queen in Right of Canada. National Research Council of Canada. Ottawa, Canada.
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License v 3.0 as published by the Free Software Foundation.
-Redistributions and modifications should credit the National Research Council of Canada as the originator of this code.
-
-![NRCLOGO](src/images/nrc-signature-e-kr.jpg)
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+**luox-NRC-CIERf** is a fork of the [luox](https://github.com/luox-app/luox/) project. [File additions and modifications](COPYRIGHT-NRC.md) by the National Research Council of Canada (NRC) are **Copyright (C) 2022 Her Majesty the Queen in Right of Canada.**
 
 ## Development
 
