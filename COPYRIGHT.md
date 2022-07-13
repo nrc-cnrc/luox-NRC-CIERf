@@ -1,16 +1,16 @@
 # Copyright of luox-NRC-CIERf files
 
-The luox-NRC-CIERf repository is a fork of the [luox](https://github.com/luox-app/luox/) project. File additions and modifications (of the original luox files) by the National Research Council of Canada (NRC), as listed below, are **Copyright (C) 2022 Her Majesty the Queen in Right of Canada.** For files that are *not* listed below, please refer to the [luox](https://github.com/luox-app/luox/) project for copyright information.
+The luox-NRC-CIERf repository is a fork of the [luox](https://github.com/luox-app/luox/) project. File additions and modifications (of the original luox files) by the National Research Council of Canada (NRC), as listed below, are **Copyright (C) 2022 Her Majesty the Queen in Right of Canada.**
 
 ## Files added by NRC
 
-The list of files *added* by NRC is generated with the command:
+The list of files *added* (A) by NRC is generated with the command:
 
 ```git
 git log --oneline --author=somang --name-status before-nrc.. | grep "^A" | sort | uniq
 ```
 
-which yields (`A` means *added*):
+which yields:
 
 ```
 A       data/CES99_1nm.csv
@@ -42,16 +42,15 @@ A       test/colourFidelityIndex.test.js
 A       test/tm30ColourFidelityIndex.test.js
 ```
 
-
 ## Files modified by NRC
 
-The list of files *modified* by NRC is generated with the command:
+The list of files *modified* (M) by NRC is generated with the command:
 
 ```
 git log --oneline --author=somang --name-status before-nrc.. | grep "^M" | sort | uniq
 ```
 
-which yields (`M` means *modified*) (omitting added files and `package*.json`):
+which yields, omitting new files and changes to `package*.json`:
 
 ```
 M       src/javascript/calculations.js
@@ -74,4 +73,8 @@ M       test/colourRenderingIndex.test.js
 M       test/inputValidator.test.js
 ```
 
-The specific NRC modifications to these *luox* files can be determined by inspecting the log for each file, for example: `git log --author=somang --patch before-nrc.. src/javascript/calculations.js`.
+The specific NRC modifications to these *luox* files can be determined by inspecting the log for each file, for example:
+
+```
+git log --author=somang --patch before-nrc.. src/javascript/calculations.js
+```
