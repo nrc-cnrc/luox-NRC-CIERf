@@ -2,3 +2,5 @@ node_modules
 dist
 src/version.json
 tmp
+-p
+dist

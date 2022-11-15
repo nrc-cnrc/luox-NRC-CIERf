@@ -1,4 +1,28 @@
-# luox
+# NRC CIE Colour Fidelity Index module for luox
+
+**luox-NRC-CIERf** is a module to calculate parameters for light source colour appearance and colour rendering in the luox platform.
+
+**luox-NRC-CIERf** is a fork of the [luox](https://github.com/luox-app/luox/) project, which is an open-source web platform for calculating quantities that describe light exposures. Quantities for the intensity of light exposure in terms of the international standard CIE S026:2018 were calculated in the original release. The **luox-NRC-CIERf** module, developed at the NRC in collaboration with the site’s original creator, adds indices related to light source colour appearance and colour rendering, principally those from publication CIE 224:2017 CIE 2017 Colour Fidelity Index for accurate scientific use. Users may also choose to view indices and colour vector graphics following the Illuminating Engineering Society TM-30-20 IES method for evaluating light source color rendition. This module also adds a ‘power mode’ permitting the user to submit any number of spectra simultaneously for calculation.
+
+## Team
+
+This module was developed by Dr. Somang Nam and Dr. Jennifer A. Veitch at the National Research Council of Canada (Construction Research Centre), in collaboration with Dr. Manuel Spitschan (Translational Sensory & Circadian Neuroscience, Max Planck Institute for Biological Cybernetics and Technical University of Munich, Germany).
+
+## Citation
+
+Nam, S., Veitch, J. A., & Spitschan, M. (2022). CIE Colour Fidelity Index module for luox (luox-NRC-CIERf) [Source code]. National Research Council of Canada. https://github.com/nrc-cnrc/luox-NRC-CIERf.
+
+### Companion Paper
+
+Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Herf, M., Nam, S., & Veitch, J. A. (2022). luox: novel validated open-access and open-source web platform for calculating and sharing physiologically relevant quantities for light and lighting. Wellcome Open Research, 6, 69. https://doi.org/10.12688/wellcomeopenres.16595.3
+
+## Licence
+
+**luox-NRC-CIERf** is distributed as free software under the terms of the GNU GPL-3.0 licence (https://www.gnu.org/licenses/gpl-3.0.en.html) Please review the LICENCE document for the licensing terms.
+
+## Copyright
+
+**luox-NRC-CIERf** is a fork of the [luox](https://github.com/luox-app/luox/) project. [File additions and modifications](COPYRIGHT.md) by the National Research Council of Canada (NRC) are **Copyright (C) 2022 Her Majesty the Queen in Right of Canada.**
 
 ## Development
 
@@ -42,19 +66,3 @@ $ npm test
 ```
 $ npm start
 ```
-
-## Deploy Preview
-
-Netlify automatically runs a build on a non-`master` branch when a GitHub pull request is opened for that branch. If the build passes then Netlify automatically deploys the changes to a "Deploy Preview" whose URL is publicly accessible, but "secure" by being an obscure/unguessable URL. Deploy Previews are listed [here](https://app.netlify.com/sites/luox/deploys?filter=deploy+previews).
-
-## Production
-
-Netlify automatically runs a build when commits are pushed to the `master` branch. If the build passes then Netlify automatically deploys the changes to the production website, [luox.app](https://luox.app/). Production deployments are listed [here](https://app.netlify.com/sites/luox/deploys?filter=master).
-
-## Note
-
-Please note that this repository is participating in a study into sustainability of open source projects. Data will be gathered about this repository for approximately the next 12 months, starting from 4 June 2021.
-
-Data collected will include number of contributors, number of PRs, time taken to close/merge these PRs, and issues closed.
-
-For more information, please visit [our informational page](https://sustainable-open-science-and-software.github.io/) or download our [participant information sheet](https://sustainable-open-science-and-software.github.io/assets/PIS_sustainable_software.pdf).

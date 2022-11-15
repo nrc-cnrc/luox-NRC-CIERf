@@ -1,8 +1,12 @@
+If you use _luox-NRC-CIERf_ for calculations, please cite the luox-NRC-CIERf source code:
+
+Nam, S., Veitch, J. A., & Spitschan, M. (2022). CIE Colour Fidelity Index module for luox (luox-NRC-CIERf) [Source code]. National Research Council of Canada. https://github.com/nrc-cnrc/luox-NRC-CIERf.
+
 If you use _luox_ for calculations, please cite the following (APA format):
 
 Spitschan, M. (2021). luox: Platform for calculating quantities related to light and lighting [Software]. Available from https://luox.app/.
 Spitschan, M., Stefani, O., Blattner, P., Gronfier, C., Lockley, S. W., & Lucas, R. J. (2019) How to report Light exposure in human chronobiology and sleep research experiments. _Clocks & Sleep_. 2019; 1(3):280-289. DOI: [10.3390/clockssleep1030024](https://doi.org/10.3390/clockssleep1030024).
 
-For citing the source code:
+For citing the luox source code:
 
 Spitschan, M. (2021). luox: Platform for calculating quantities related to light and lighting [Source code]. Available from https://github.com/luox-app/luox.
