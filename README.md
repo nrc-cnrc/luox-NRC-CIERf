@@ -22,7 +22,7 @@ Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Herf, M.
 
 ## Copyright
 
-**luox-NRC-CIERf** is a fork of the [luox](https://github.com/luox-app/luox/) project. [File additions and modifications](COPYRIGHT.md) by the National Research Council of Canada (NRC) are **Copyright (C) 2022 Her Majesty the Queen in Right of Canada.**
+**luox-NRC-CIERf** is a fork of the [luox](https://github.com/luox-app/luox/) project. [File additions and modifications](COPYRIGHT.md) by the National Research Council of Canada (NRC) are **Copyright (C) 2022 Her Majesty the King in Right of Canada.**
 
 ## Development
 
