@@ -54,7 +54,7 @@ Software:
 
 Companion paper:
 
-> **Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Herf, M., Nam, S., & Veitch, J. A. (2022). luox: novel validated open-access and open-source web platform for calculating and sharing physiologically relevant quantities for light and lighting. Wellcome Open Res, 6, 69. doi:10.12688/wellcomeopenres.16595.3**
+> **Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Hisf, M., Nam, S., & Veitch, J. A. (2022). luox: novel validated open-access and open-source web platform for calculating and sharing physiologically relevant quantities for light and lighting. Wellcome Open Res, 6, 69. doi:10.12688/wellcomeopenres.16595.3**
 
 For citing the source code:
 
@@ -185,7 +185,7 @@ We provide a documented wizard for uploading your files to the platform.
 
 ### Sharing spectra and calculations using sharing URL
 
-Spectra and calculations within the luox platform can be shared using an URL that directly encodes the uploaded spectrum/spectra using Michael Herf's [spdurl](https://github.com/herf/spdurl) package. The sharing URL will open a view-only version of the platform. To copy the sharing URL, scroll down to the bottom of the page. Before sharing the URL, please double-check that it opens spectrum/spectra as expected.
+Spectra and calculations within the luox platform can be shared using an URL that directly encodes the uploaded spectrum/spectra using Michael Hisf's [spdurl](https://github.com/herf/spdurl) package. The sharing URL will open a view-only version of the platform. To copy the sharing URL, scroll down to the bottom of the page. Before sharing the URL, please double-check that it opens spectrum/spectra as expected.
 
 ### Requesting DOI for sharing URL
 
