@@ -6,7 +6,7 @@
   "scripts": {
     "version": "generate-version-information.sh",
     "test": "npm run version && prettier --check . && eslint --ext .js,.jsx *.js src test && jest",
-    "build": "npm run version && mkdir -p dist && webpack --config webpack.prod.js",
+    "build": "npm run version && webpack --config webpack.prod.js",
     "start": "npm run version && webpack-dev-server --open --config webpack.dev.js"
   },
   "browserslist": [
@@ -44,7 +44,6 @@
     "jest-cli": "^27.4.7",
     "lodash": "^4.17.21",
     "markdown-loader": "^6.0.0",
-    "node-sass": "^7.0.0",
     "postcss": "^8.4.14",
     "postcss-loader": "^4.3.0",
     "prettier": "2.1.2",
@@ -82,6 +81,7 @@
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
     "react-router-prop-types": "^1.0.5",
+    "sass": "^1.56.1",
     "spdurl": "^0.2.0",
     "use-state-if-mounted": "^1.0.4",
     "webpack-merge": "^4.2.2"

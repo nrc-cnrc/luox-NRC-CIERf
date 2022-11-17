@@ -1,7 +1,7 @@
 /**
  * luox-NRC-CIERf is a module to calculate parameters for light source
  * colour appearance and colour rendering in the luox platform.
- * Copyright (C) 2022 Her Majesty the Queen in Right of Canada.
+ * Copyright (C) 2022 Her Majesty the King in Right of Canada.
  * National Research Council of Canada. Ottawa, Canada.
  *
  * This program is free software: you can redistribute it and/or modify it under the terms of the

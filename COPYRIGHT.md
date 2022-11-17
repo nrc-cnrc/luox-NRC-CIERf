@@ -1,6 +1,6 @@
 # Copyright of luox-NRC-CIERf files
 
-The luox-NRC-CIERf repository is a fork of the [luox](https://github.com/luox-app/luox/) project. File additions and modifications (of the original luox files) by the National Research Council of Canada (NRC), as listed below, are **Copyright (C) 2022 Her Majesty the Queen in Right of Canada.**
+The luox-NRC-CIERf repository is a fork of the [luox](https://github.com/luox-app/luox/) project. File additions and modifications (of the original luox files) by the National Research Council of Canada (NRC), as listed below, are **Copyright (C) 2022 Her Majesty the King in Right of Canada.**
 
 ## Files added by NRC
 

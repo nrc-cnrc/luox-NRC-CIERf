@@ -3,6 +3,7 @@ message: "If you use this software repository, please cite it using these metada
 authors:
   - family-names: Nam
     given-names: Somang
+    orcid: https://orcid.org/0000-0002-7785-9003
   - family-names: Veitch
     given-names: Jennifer A.
   - family-names: Spitschan

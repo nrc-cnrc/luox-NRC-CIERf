@@ -27,7 +27,7 @@ CalculationTableHeader.propTypes = {
 };
 
 /* *
- * Copyright (C) 2022 Her Majesty the Queen in Right of Canada.
+ * Copyright (C) 2022 Her Majesty the King in Right of Canada.
  * National Research Council of Canada. Ottawa, Canada.
  * */
 const checkNA = (sample, index, exponentialNotation) => {
@@ -42,7 +42,7 @@ const checkNA = (sample, index, exponentialNotation) => {
 };
 
 /**
- * Copyright (C) 2022 Her Majesty the Queen in Right of Canada.
+ * Copyright (C) 2022 Her Majesty the King in Right of Canada.
  * National Research Council of Canada. Ottawa, Canada.
  * */
 const CalculationTableRow = ({ heading, samples, exponentialNotation }) => {
@@ -72,7 +72,7 @@ CalculationTableRow.propTypes = {
  * Create component contents using calculated values.
  * Asynchronous functions were used to optimze rendering process.
  *
- * Copyright (C) 2022 Her Majesty the Queen in Right of Canada.
+ * Copyright (C) 2022 Her Majesty the King in Right of Canada.
  * National Research Council of Canada. Ottawa, Canada.
  * */
 const CalculationTable = ({
