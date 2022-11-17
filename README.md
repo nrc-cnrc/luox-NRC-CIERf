@@ -14,7 +14,7 @@ Nam, S., Veitch, J. A., & Spitschan, M. (2022). CIE Colour Fidelity Index module
 
 ### Companion Paper
 
-Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Hisf, M., Nam, S., & Veitch, J. A. (2022). luox: novel validated open-access and open-source web platform for calculating and sharing physiologically relevant quantities for light and lighting. Wellcome Open Research, 6, 69. https://doi.org/10.12688/wellcomeopenres.16595.3
+Spitschan, M., Mead, J., Roos, C., Lowis, C., Griffiths, B., Mucur, P., Herf, M., Nam, S., & Veitch, J. A. (2022). luox: novel validated open-access and open-source web platform for calculating and sharing physiologically relevant quantities for light and lighting. Wellcome Open Research, 6, 69. https://doi.org/10.12688/wellcomeopenres.16595.3
 
 ## Licence
 
